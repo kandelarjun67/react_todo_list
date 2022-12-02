@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: 0 10%;
+}
+li {
+  list-style: none;
+  padding: 12px;
+  margin-bottom: 8px;
+  /* border-bottom: 2px solid #bbb; */
+  font-size: 22px;
+  color: maroon;
+}
+
+input, button {
+  margin-top: 25px;
+  outline: none;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 20px;
+}
+button{
+  margin-left: 12px;
+}
+
+h1{
+  margin: 10px 0;
+}
