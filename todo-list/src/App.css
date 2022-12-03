@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0;
 }
-li {
-  list-style: none;
-  padding: 5px 12px;
-  border-bottom: 1px solid #fff;
-  border-radius: 7px;
-  margin-bottom: 5px;
+.list-data {
   font-size: 19px;
+  padding: 10px 12px;
+  background-color: rgb(215, 229, 239);
+  color: #000;
+  border-radius: 15px;
+  /* width: 20%; */
 }
