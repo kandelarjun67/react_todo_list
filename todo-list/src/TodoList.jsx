@@ -17,13 +17,28 @@ export default function TodoList() {
     }
     return (
         <>
-            {list.map((item) =>
-                <li>
-                    {item} 
-                </li>
-            )}
-            <input type="text" placeholder='Add Activity' value={activity} onChange={(e) => setActivity(e.target.value)} />
-            <button onClick={btnClicked}>Add</button>
+            <div className="container bg-light p-5">
+                <div className="row">
+                    <div className="col-lg-6">
+                        <input type="text" placeholder='Add Activity' className='form-control py-3' value={activity} onChange={(e) => setActivity(e.target.value)} />
+                    </div>
+                    <div className="col-lg-4">
+                        <button className='btn btn-info btn-lg py-3 px-5' onClick={btnClicked}>Add</button>
+                    </div>
+                </div>
+                </div>
+                <div className="container bg-dark text-light py-3">
+             
+                <h3>Here is the List :{")"}</h3>
+                {list.map((item) =>
+                    <li>
+                        {item}
+                    </li>
+                )}
+                       
+                       </div>
+
+           
         </>
     )
 }
